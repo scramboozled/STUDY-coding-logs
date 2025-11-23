@@ -1,0 +1,18 @@
+-- Aggregations
+-- 1. GROUP BY Clause is used to group aggregation on specific column.
+-- 2. HAVING Clause is used to filter based on aggregations
+
+
+SELECT MIN(REPLACEMENT_COST),MAX(REPLACEMENT_COST),ROUND(AVG(REPLACEMENT_COST),2) AS AVERAGE,SUM(REPLACEMENT_COST) FROM FILM;
+
+
+-- GROUP BY Clause is used to group aggregation on specific column.
+SELECT STAFF_ID, SUM(AMOUNT),COUNT(AMOUNT) FROM PAYMENT WHERE AMOUNT != 0.00 GROUP BY 1 ORDER BY 1 DESC LIMIT 2;
+
+-- HAVING Clause is used to filter based on aggregations
+SELECT CUSTOMER_ID, DATE(PAYMENT_DATE), AVG(AMOUNT), COUNT(*) FROM PAYMENT 
+WHERE PAYMENT_DATE BETWEEN '2020-04-28' AND '2020-04-30'
+GROUP BY 1,DATE(PAYMENT_DATE)
+HAVING COUNT(*) > 1
+ORDER BY 3 DESC;
+
