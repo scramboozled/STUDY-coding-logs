@@ -7,7 +7,7 @@ It is intended for **personal learning, experimentation, and revision**.
 
 ## 🎯 Purpose of This Repository
 
-- To track my learning progress
+- To track my learning notes
 - To store practice programs and mini-projects
 - To revise concepts easily in the future
 - To build a strong programming foundation
