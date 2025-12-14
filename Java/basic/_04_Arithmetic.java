@@ -1,6 +1,6 @@
 package basic;
 
-class FArithmetic {
+class _04_Arithmetic {
     public static void main(String[] args) {
         // Basic arithmetic operations in Java
 
@@ -59,6 +59,11 @@ class FArithmetic {
         System.out.println("Augmented Assignment (x -= 10): " + (x -= 10)); // Output: 20
         System.out.println("Augmented Assignment (x /= 4): " + (x /= 4)); // Output: 5
         System.out.println("Augmented Assignment (x %= 3): " + (x %= 3)); // Output: 2
-        
+
+        // Shift operators, bitwise operators, and logical operators are more advanced topics
+        System.out.println("Shift right (8 >> 2): " + (8 >> 2)); // Output: 2
+        System.out.println("Shift left (2 << 2): " + (2 << 2)); // Output: 8
+        System.out.println("Bitwise AND (5 & 3): " + (5 & 3)); // Output: 1
+        System.out.println("Bitwise OR (5 | 3): " + (5 | 3)); // Output: 7
     }
 }

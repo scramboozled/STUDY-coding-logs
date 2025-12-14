@@ -1,5 +1,5 @@
 package basic;
-public class BVariables {
+public class _01_Variables {
 
      // Variables are reusable containers for storing data values
 

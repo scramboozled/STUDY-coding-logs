@@ -1,6 +1,6 @@
 package basic;
 
-class HelloWorld {
+class _00_HelloWorld {
     // This is a single-line comment
     /*
      This is a multi-line comment

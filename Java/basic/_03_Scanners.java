@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Scanner;
 
-class DScanner {
+class _03_Scanners {
     public static void main(String[] args) {
         // Scanner is used to get user input, and it is found in the java.util package
         // To use the Scanner class, you need to import it from the java.util package
